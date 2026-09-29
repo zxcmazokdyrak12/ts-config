@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                        // версия JavaScript, в которую компилируется код
+    "module": "nodenext",                      // модульная система (для Node.js)
+    "strict": true,                            // включает все строгие проверки типов
+    "rootDir": "./src",                        // корневая папка исходников
+    "outDir": "./dist",                        // папка для скомпилированных файлов
+    "esModuleInterop": true,                   // совместимость с CommonJS-модулями
+    "forceConsistentCasingInFileNames": true,  // строгий регистр в путях
+    "skipLibCheck": true,                      // пропуск проверки типов библиотек (.d.ts)
+    "verbatimModuleSyntax": false              // не требовать буквального сохранения import/export
+  },
+  "include": ["src/**/*"],                     // какие файлы компилировать
+  "exclude": ["node_modules", "dist"]          // что игнорировать
+}
